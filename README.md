@@ -45,7 +45,7 @@ starting gulp
 $ gulp
 
 ```
-And you're good to go.
+Now you're good to go.
 
 
 
