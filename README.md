@@ -1,23 +1,26 @@
-# gulp_auto
+# Developoz-toolkit
 
-Requirements
+## Architecture
 
-Install Node
-
-Prior to taking the course, clone this repo and run the content locally
-
-$ npm install
-$ gulp
-
-  |- app/
-      |- css/
-      |- images/ 
-      |- index.html
-      |- js/ 
-      |- sass/
-  |- dist/
-  |- gulpfile.js
-  |- node_modules/
-  |- package.json
-  
-  Type in gulp in the command line and you're good to go.
+    name-project/
+    ├── dist/
+    │    └── ...
+    │
+    └── source/
+         ├── images/
+         │
+         ├── javascripts/
+         │    
+         │
+         ├── stylesheets/
+         │      ├── base/
+         │      ├── components/
+         │      ├── helpers/
+         │      ├── layout/
+         │      ├── pages/
+         │      ├── themes/
+         │      ├── vendor/
+         │      └── all.scss
+         │
+         └── index.html.slim
+         │
