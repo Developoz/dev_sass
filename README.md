@@ -1,9 +1,13 @@
-# dev_sass
-First make sure to install gulp $ sudo npm install gulp -g
+# gulp_auto
 
-Clone the document and use $ npm install
+Requirements
 
-this is how the path structure looks like
+Install Node
+
+Prior to taking the course, clone this repo and run the content locally
+
+$ npm install
+$ gulp
 
   |- app/
       |- css/
