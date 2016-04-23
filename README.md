@@ -1,18 +1,9 @@
 # Gulp-autokit
 
-use Gulp to automate your workflow.
+use Gulp to automate your workflow of SASS, Jade and JS.
 
 ## What does it do?
-It autocompiles your scss files to css and also auto refreshes your browser when you save your html, scss and js files.
-
-minimalistic easy to use with just three plugins.
-
-```javascript
-var gulp        = require('gulp');
-var browserSync = require('browser-sync').create();
-var sass        = require('gulp-sass');
-
-```
+It autocompiles your scss files to css and also auto refreshes your browser when you save your html, jade, scss and js files.
 
 ## Architecture
 
