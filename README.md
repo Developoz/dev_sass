@@ -1,23 +1,56 @@
-# gulp_auto
+# Gulp-autokit
 
-Requirements
+use Gulp to automate your workflow of SASS, Jade and JS.
 
-Install Node
+## What does it do?
+It autocompiles your scss files to css and also auto refreshes your browser when you save your html, jade, scss and js files.
 
-Prior to taking the course, clone this repo and run the content locally
+## Architecture
 
-$ npm install
+
+
+    your-project/
+    │
+    ├── package.json
+    │
+    ├── gulpfile.js
+    │
+    ├── node_modules/
+    │
+    └── app/
+         ├── images/
+         │
+         ├── js/
+         │    └── *.js
+         │    
+         ├── css/
+         │    
+         ├── sass/  
+         │     └── *.scss
+         │     
+         └── index.html
+
+## Quick start
+
+You need to install Node and NPM if you haven't done that already.
+
+```
+cd your-project
+
+$ npm install 
+```
+starting gulp
+
+```
 $ gulp
 
-  |- app/
-      |- css/
-      |- images/ 
-      |- index.html
-      |- js/ 
-      |- sass/
-  |- dist/
-  |- gulpfile.js
-  |- node_modules/
-  |- package.json
-  
-  Type in gulp in the command line and you're good to go.
+```
+Now you're good to go.
+
+
+
+
+
+
+
+
