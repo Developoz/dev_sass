@@ -30,6 +30,7 @@ gulp.task('templates', function(){
 
     gulp.src('./app/*.jade')
     .pipe(jade({
+        pretty: true,
         locals: YOUR_LOCALS
     }))
     .pipe(gulp.dest('./app/'))
